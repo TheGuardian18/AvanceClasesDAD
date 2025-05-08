@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ms-gateway-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://yunior:123456@localhost:7070
