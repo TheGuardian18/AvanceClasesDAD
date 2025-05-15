@@ -1,0 +1,17 @@
+server:
+  port: 7070
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/TheGuardian18/AvanceClasesDAD.git
+          searchPaths: config-data
+          default-label: PRINCIPALCITO
+  security:
+    user:
+      name: yunior
+      password: teamomama

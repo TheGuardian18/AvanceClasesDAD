@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: hlca-estudiante-servicio
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://yunior:teamomama@localhost:7070

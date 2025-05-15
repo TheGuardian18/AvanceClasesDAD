@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hlca-curso-servicio
+
+
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://yunior:teamomama@localhost:7070
+
+

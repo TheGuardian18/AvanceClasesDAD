@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hlca-auth-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://yunior:teamomama@localhost:7070
+
+jwt:
+  secret: secret
